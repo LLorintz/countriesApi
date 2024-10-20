@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+}
+
+body{
+    background-color: hsl(207, 26%, 17%);
+}
+
+.container{
+    width: 1440px;;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    line-height: 70xp;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: hsl(209, 23%, 22%); 
+}
+
+.header h5{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.allCountry{
+   margin-top: 100px;
+}
+
+.countryBottom{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.countryCard{
+    width: 250px;
+  
+    border-radius: 5px;
+    background: hsl(209, 23%, 22%);
+    color: #fff;
+}
+
+
+
+.countryImage img{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0px 0pxs;
+}
+
+.countryData{
+padding:20px    
+}
+
+.countryData h3{
+    margin-top: 10px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.countryData h6{
+    margin-bottom: 10px;
+    font-weight: 400;
+    opacity: 80;
+}
+
+.countryBottom h4{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+input{
+    padding: 7px 25px;
+    color:#fff;
+    border-radius:5px;
+    background: hsl(209, 23%, 22%);
+    border: none;
+    outline:none;
+    margin-bottom:50px;
+}
+
+::placeholder{
+    color:#fff;
+}
+
+.countryTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+select{
+    background: hsl(207, 23%, 22%);
+    padding: 10px 25px;
+    margin-bottom: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.option{
+    cursor: pointer;
+}
+
+.countryInfoWrapper{
+    margin-top: 120px;
+}
+
+.countryInfoContainer{
+    display: flex;
+    column-gap: 4rem;
+}
+
+.countryInfoImg, .countryInfo
+{
+    width: 50%;
+}
+
+button{
+    padding: 10px 25px;
+    color: #fff;
+    background: hsl(207, 23%, 22%);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 120px;
+    margin-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.countryInfo h3{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.countryInfoLeft h5{
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.countryInfoLeft h5 span{
+    color: #fff;
+    opacity: 85%;
+    font-weight: 700;
+}
